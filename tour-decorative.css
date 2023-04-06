@@ -1,0 +1,47 @@
+body {
+    overflow: hidden;
+    background-image: url("img/img1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+ }
+ 
+ .page-header{
+     padding: 30px 20px 70px;
+ }
+ .title{
+     width: 100%;
+ }
+ .quote {
+     width: 160px;
+     height: 142px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+     background-image: url("img/heart.png");
+     background-size: cover;
+     background-position: center;
+ }
+ .day h2{
+     color: #b32b90;
+ }
+ .day h2 img{
+     width: 25px;
+     margin: 0px 5px;
+ } 
+ .page-footer{
+     position: absolute;
+     text-align: center;
+     padding: 10px 20px 20px;
+     width: 100%;
+     bottom: 0;
+     left: 0;
+     background-color: #d3537e;
+     color: white;
+ }
+ 
+ .accent {
+     color: #b32b90;
+ }
